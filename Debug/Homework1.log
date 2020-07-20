@@ -1,0 +1,12 @@
+﻿  newSet.cpp
+Set.obj : error LNK2005: "public: __thiscall Set::Set(void)" (??0Set@@QAE@XZ) already defined in newSet.obj
+Set.obj : error LNK2005: "public: bool __thiscall Set::contains(unsigned long const &)const " (?contains@Set@@QBE_NABK@Z) already defined in newSet.obj
+Set.obj : error LNK2005: "public: bool __thiscall Set::empty(void)const " (?empty@Set@@QBE_NXZ) already defined in newSet.obj
+Set.obj : error LNK2005: "public: bool __thiscall Set::erase(unsigned long const &)" (?erase@Set@@QAE_NABK@Z) already defined in newSet.obj
+Set.obj : error LNK2005: "public: bool __thiscall Set::get(int,unsigned long &)const " (?get@Set@@QBE_NHAAK@Z) already defined in newSet.obj
+Set.obj : error LNK2005: "public: bool __thiscall Set::insert(unsigned long const &)" (?insert@Set@@QAE_NABK@Z) already defined in newSet.obj
+Set.obj : error LNK2005: "public: int __thiscall Set::size(void)const " (?size@Set@@QBEHXZ) already defined in newSet.obj
+Set.obj : error LNK2005: "public: void __thiscall Set::swap(class Set &)" (?swap@Set@@QAEXAAV1@@Z) already defined in newSet.obj
+testSet.obj : error LNK2005: _main already defined in testnewSet.obj
+testSSNSet.obj : error LNK2005: _main already defined in testnewSet.obj
+C:\CS32\Homework1\Debug\Homework1.exe : fatal error LNK1169: one or more multiply defined symbols found
